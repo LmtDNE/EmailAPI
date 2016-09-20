@@ -2,7 +2,7 @@
 Simple Web API that allows users to send e-mails 
 ##Usage
 Utilizing Postman or your API tool of choice visit: https://evening-atoll-89606.herokuapp.com/email
-##Formatng
+##Formatting
 ```sh
 {
   "to": "RandomEmail@example.com",
