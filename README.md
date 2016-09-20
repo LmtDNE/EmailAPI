@@ -17,7 +17,7 @@ Utilizing Postman or your API tool of choice visit: https://evening-atoll-89606.
 - Sendgrid
 
 ##Installation
-
+From Root directory type the following into your CLI:
 ```sh
 npm install
 ```
