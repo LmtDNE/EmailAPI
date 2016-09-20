@@ -1,0 +1,30 @@
+{
+  "name": "emailapi",
+  "version": "1.0.0",
+  "description": "A Web API that allows users to send e-mails",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LmtDNE/EmailAPI.git"
+  },
+  "author": "Dion Fulwood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LmtDNE/EmailAPI/issues"
+  },
+  "homepage": "https://github.com/LmtDNE/EmailAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "node": "0.0.0",
+    "sendgrid": "^4.3.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.0.2"
+  }
+}
