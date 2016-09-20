@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true}));
 //Create post request
 app.post("/email", (req, res) => {
   //Store info from user to be used for the e-mail
-  console.log(req.body);
+  
   let fromEmail = new helper.Email("Dion.Fulwood@gmail.com");
   let toEmail = new helper.Email(req.body.to);
   let subject = req.body.subject || "Hello from " + fromEmail.email;
